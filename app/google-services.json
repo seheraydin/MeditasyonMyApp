@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "440877192966",
+    "firebase_url": "https://meditasyonmyapp.firebaseio.com",
+    "project_id": "meditasyonmyapp",
+    "storage_bucket": "meditasyonmyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440877192966:android:dd7e98691fc456fbaeb087",
+        "android_client_info": {
+          "package_name": "com.example.meditasyonmyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440877192966-a19qorfvhc8dej93k8c15p5fm3kvusqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrrSMigcoqRfbfU9oBuMzcmaImAKhwlzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440877192966-a19qorfvhc8dej93k8c15p5fm3kvusqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/idActionBarTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#622544">
+
+        <Button
+            android:id="@+id/idMenuBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/menu" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/idRefreshBtn"
+            android:layout_toEndOf="@id/idMenuBtn"
+            android:layout_toRightOf="@id/idMenuBtn"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/idRefreshBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/home_btn"
+            android:layout_margin="5dp" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRecycler_view"
+        android:layout_below="@+id/idActionBarTop"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

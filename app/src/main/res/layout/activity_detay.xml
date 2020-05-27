@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detayback"
+    tools:context=".DetayActivity">
+
+    <ImageView
+        android:id="@+id/idDetayImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idSeekbarPlay"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:src="@drawable/imgback" />
+
+    <SeekBar
+        android:id="@+id/idSeekbarPlay"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/idTextBas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idSeekbarPlay"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="00:00:00"
+        android:textColor="#f5dbe8" />
+
+    <TextView
+        android:id="@+id/idTextSon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idSeekbarPlay"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="00:00:00"
+        android:textColor="#f5dbe8" />
+
+    <Button
+        android:id="@+id/idPlayButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/idSeekbarPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/play" />
+
+    <Button
+        android:id="@+id/idFavoriButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idPlayButton"
+        android:layout_margin="65dp"
+        android:background="@drawable/plus" />
+
+</RelativeLayout>
